@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const SpentTime = ({readTime}) => {
     const [spentTime , setSpentTime] = useState(0) ;
     useEffect(() =>{
-        const spentTime = localStorage.getItem('readTime') ;
+        const spentTime = localStorage.getItem('proCafeBlogReadTime') ;
         if(!spentTime){
             setSpentTime(0) ;
         }

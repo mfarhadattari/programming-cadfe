@@ -6,13 +6,13 @@ const PostsAndSideBarContainer = () => {
   const [readTime, setReadTime] = useState(0);
   const readTimeCounter = (readTime) => {
     // console.log(readTime)
-    const previousReadTime = localStorage.getItem("readTime");
+    const previousReadTime = localStorage.getItem("proCafeBlogReadTime");
     if (!previousReadTime) {
-      localStorage.setItem("readTime", readTime);
+      localStorage.setItem("proCafeBlogReadTime", readTime);
       setReadTime(readTime);
     } else {
       const newTime = parseInt(previousReadTime) + readTime;
-      localStorage.setItem("readTime", newTime);
+      localStorage.setItem("proCafeBlogReadTime", newTime);
       setReadTime(newTime);
     }
   };
