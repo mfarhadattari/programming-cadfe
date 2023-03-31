@@ -2,8 +2,7 @@ import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const Post = ({ post }) => {
-  console.log(post);
+const Post = ({ post , readTimeCounter}) => {
   const {
     postId,
     author,
@@ -54,7 +53,7 @@ const Post = ({ post }) => {
         {/* -----------post hash tag end ---------*/}
 
         {/* mark as read btn */}
-        <button className="underline text-purple-600 text-xl font-semibold">
+        <button className="underline text-purple-600 text-xl font-semibold" onClick={() => readTimeCounter(readTime)}>
           Mark as Read
         </button>
 
