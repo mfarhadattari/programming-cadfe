@@ -11,7 +11,7 @@ const Posts = () => {
 //   console.log(posts)
 
   return (
-    <div className="col-span-2 ">
+    <div className="col-span-2">
         {
             posts.map(post => <Post key={post.postId} post={post}></Post>)
         }

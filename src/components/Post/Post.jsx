@@ -48,7 +48,7 @@ const Post = ({ post }) => {
         {/* ----------post hash tag start ------------- */}
         <div className="flex gap-3 my-5">
           {hashTag.map((tag) => (
-            <a>#{tag}</a>
+            <a key={tag}>#{tag}</a>
           ))}
         </div>
         {/* -----------post hash tag end ---------*/}
