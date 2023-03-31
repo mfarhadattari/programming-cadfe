@@ -1,0 +1,47 @@
+[
+    {
+        "postId": 1,
+        "authorProfile": "https://img.freepik.com/free-photo/confident-attractive-caucasian-guy-beige-pullon-smiling-broadly-while-standing-against-gray_176420-44508.jpg?w=740&t=st=1680259714~exp=1680260314~hmac=9d08f6276a8a0e2676e46f6ffb6ebc5702825d576236e86b5ca169da526b7434",
+        "author": "Lenore Sargent",
+        "postTitle": "React vs React native",
+        "thumbnail": "https://img.freepik.com/premium-photo/programming-concept-with-man-using-mobile-phone-digital-screen-with-node-tree-signs_670147-33345.jpg?size=626&ext=jpg&ga=GA1.1.1258473558.1680259642&semt=sph",
+        "hashTag": ["Javascript" , "React" , "React Native"] ,
+        "readTime" : 8 ,
+        "published" : "15 March 2023"
+    },
+    {
+        "postId": 2,
+        "authorProfile": "https://img.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19636.jpg?size=626&ext=jpg&ga=GA1.1.1258473558.1680259642&semt=ais",
+        "author": "Gretchen Moss",
+        "postTitle": "Mern vs Django",
+        "thumbnail": "https://img.freepik.com/free-photo/programming-background-concept_23-2150170124.jpg?size=626&ext=jpg&ga=GA1.1.1258473558.1680259642&semt=sph",
+        "hashTag": ["Javascript" , "React" , "Python", "Django"] ,
+        "readTime" : 12 ,
+        "published" : "03 March 2023"
+
+
+    },
+    {
+        "postId": 3,
+        "authorProfile": "https://img.freepik.com/free-photo/cute-smiling-young-man-with-bristle-looking-satisfied_176420-18989.jpg?size=626&ext=jpg&ga=GA1.1.1258473558.1680259642&semt=ais",
+        "author": "Jeannette Mcguire",
+        "postTitle": "How to learn programming",
+        "thumbnail": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010127.jpg?size=626&ext=jpg&ga=GA1.1.1258473558.1680259642&semt=sph",
+        "hashTag": ["Programming" , "Python"],
+        "readTime" : 15 ,
+        "published" : "21 February 2023"
+
+
+    },
+    {
+        "postId": 4,
+        "authorProfile": "https://img.freepik.com/free-photo/young-adult-enjoying-virtual-date_23-2149328221.jpg?size=626&ext=jpg&ga=GA1.1.1258473558.1680259642&semt=ais",
+        "author": "Finch Ryan",
+        "postTitle": "Mastering Data structures and Algorithms",
+        "thumbnail": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?size=626&ext=jpg&ga=GA1.1.1258473558.1680259642&semt=sph",
+        "hashTag": ["Programming" , "Python" , "Data Structure" , "Algorithum"] , 
+        "readTime" : 17 ,
+        "published" : "15 January 2023"
+
+    }
+]
