@@ -3,7 +3,7 @@ import Main from "./components/Main/Main"
 
 function App() {
   return(
-    <div>
+    <div className="mx-auto">
       <Header></Header>
       <Main></Main>
     </div>

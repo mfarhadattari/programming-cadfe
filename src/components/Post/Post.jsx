@@ -45,7 +45,7 @@ const Post = ({ post , readTimeCounter}) => {
         <h1 className="font-bold text-5xl my-4">{postTitle}</h1>
 
         {/* ----------post hash tag start ------------- */}
-        <div className="flex gap-3 my-5">
+        <div className="flex gap-3 my-5 flex-wrap">
           {hashTag.map((tag) => (
             <a key={tag}>#{tag}</a>
           ))}

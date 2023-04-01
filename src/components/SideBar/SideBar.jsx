@@ -3,7 +3,7 @@ import SpentTime from '../SpentTime/SpentTime';
 
 const SideBar = ({readTime}) => {
     return (
-        <div className='col-span-1 border mt-5 p-5 h-fit'>
+        <div className='lg:col-span-1 border mt-5 p-5 h-fit'>
             <SpentTime readTime={readTime}></SpentTime>
         </div>
     );

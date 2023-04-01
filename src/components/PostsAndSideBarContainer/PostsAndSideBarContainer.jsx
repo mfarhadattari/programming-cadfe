@@ -18,7 +18,7 @@ const PostsAndSideBarContainer = () => {
   };
 
   return (
-    <section className="container gap-5 mx-auto grid grid-cols-3">
+    <section className="container mx-auto grid gap-5 grid-cols-1 lg:grid-cols-3">
       <Posts readTimeCounter={readTimeCounter}></Posts>
       <SideBar readTime={readTime}></SideBar>
     </section>
