@@ -1,0 +1,22 @@
+[
+    {
+        "articleId": 1,
+        "articleTitle": "Deference Between props and State?",
+        "articleBody": "In react props used to send data form parent component to child components. Otherside state used to manage data of accoroding to browser state or interect."
+    },
+    {
+        "articleId": 2,
+        "articleTitle": "How to useState() work?",
+        "articleBody": "useState() is a react hooks. It return an array of two value, one variable and one function which set or update variable value. It take intial value of variable as parameter."
+    },
+    {
+        "articleId": 3,
+        "articleTitle": "Used of useEffect()?",
+        "articleBody": "useEffect() is a react hooks. Its used to side effect on components. It use case is : Fetch Data form API, Get Data Form LocalStorage, Get Data Form Database , Do someting as timing etc . "
+    },
+    {
+        "articleId": 4,
+        "articleTitle": "How to react work?",
+        "articleBody": "React is Javascript Library . It work with JSX which html like markup. It divided website in many components. React components just a js function which return html code . React has many powerful feature like state, effect , visual dom etc."
+    }
+]
