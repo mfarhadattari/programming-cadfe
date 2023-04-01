@@ -8,7 +8,6 @@ const Articles = () => {
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);
-  console.log(articles);
   return (
     <article className="container mx-auto my-5 font-bold">
       <h1 className="text-5xl text-center">Articles</h1>

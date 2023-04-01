@@ -2,7 +2,7 @@ import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const Post = ({ post , readTimeCounter}) => {
+const Post = ({ post , readTimeCounter, addToBookmark}) => {
   const {
     postId,
     author,
@@ -14,9 +14,9 @@ const Post = ({ post , readTimeCounter}) => {
     hashTag,
   } = post;
   return (
-    <div className="border w-full h-[800px] my-5">
+    <div className="border w-full my-5 pb-5">
       {/* -------------Post thumbnail start------------ */}
-      <img src={thumbnail} alt="" className="w-full h-[450px]" />
+      <img src={thumbnail} alt="" className="w-full h-[400px]" />
       {/* -------------Post thumbnail end------------ */}
 
       {/* ---------------post info start------------------ */}
@@ -36,8 +36,10 @@ const Post = ({ post , readTimeCounter}) => {
           {/* ------------read time info --------------- */}
           <div className="flex items-center gap-5">
             <h1>{readTime} min read</h1>
+
+            {/* Bookmark btn */}
             <button>
-              <FontAwesomeIcon icon={faBookmark}></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faBookmark} onClick={() => addToBookmark(post)}></FontAwesomeIcon>
             </button>
           </div>
         </div>

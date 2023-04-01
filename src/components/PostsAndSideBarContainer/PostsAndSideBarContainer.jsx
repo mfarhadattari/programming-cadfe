@@ -17,10 +17,18 @@ const PostsAndSideBarContainer = () => {
     }
   };
 
+  const [bookmarkPosts , setBookmarkPosts] = useState([])
+  // const addedPost = []
+  const addToBookmark = (post) =>{
+    const newPost = [...bookmarkPosts , post]
+    setBookmarkPosts(newPost)
+  }
+  // console.log(bookmarkPosts)
+
   return (
     <section className="container mx-auto grid gap-5 grid-cols-1 lg:grid-cols-3">
-      <Posts readTimeCounter={readTimeCounter}></Posts>
-      <SideBar readTime={readTime}></SideBar>
+      <Posts readTimeCounter={readTimeCounter} addToBookmark={addToBookmark}></Posts>
+      <SideBar readTime={readTime} bookmarkPosts={bookmarkPosts}></SideBar>
     </section>
   );
 };
